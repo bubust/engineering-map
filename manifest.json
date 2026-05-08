@@ -1,11 +1,11 @@
 {
-    "name": "工程丈量",
-    "short_name": "工程丈量",
-    "start_url": "/engineering-map/",
+    "name": "engineering_map_app",
+    "short_name": "engineering_map_app",
+    "start_url": ".",
     "display": "standalone",
-    "background_color": "#1565C0",
-    "theme_color": "#1565C0",
-    "description": "工程丈量平面圖 App",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
