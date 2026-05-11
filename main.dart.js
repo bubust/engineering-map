@@ -48440,6 +48440,7 @@ J.fq(s,new A.atf())}}r.Y(new A.atg(r))},
 v6(){var s=0,r=A.W(t.H),q=1,p=[],o=this,n,m,l,k,j,i
 var $async$v6=A.X(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:q=3
+o.ok=!1
 m=window.navigator.mediaDevices
 m.toString
 l=t.z
@@ -48482,8 +48483,8 @@ mZ(){var s=0,r=A.W(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,
 var $async$mZ=A.X(function(a7,a8){if(a7===1){o.push(a8)
 s=p}for(;;)switch(s){case 0:a5=n.k2
 if(a5.length===0){s=1
-break}n.ok=!1
-n.Y(new A.au2(n))
+break}if(n.ok){s=1
+break}n.Y(new A.au2(n))
 b=A.aEZ(a5,"audio/webm")
 a=new FileReader()
 a.readAsArrayBuffer(b)
